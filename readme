@@ -1,11 +1,30 @@
-#CIFAR-10 Image Classification
-##Overview
+CIFAR-10 Image Classification
+Overview
 
 This project implements and compares four machine learning models to classify images from the CIFAR-10 dataset into 10 categories:
 
-    Naive Bayes
-    Decision Tree
-    Multi-Layer Perceptron (MLP)
-    Convolutional Neural Network (CNN - VGG11)
+   1. Naive Bayes
+   2. Decision Tree
+   3. Multi-Layer Perceptron (MLP)
+   4. Convolutional Neural Network (CNN - VGG11)
 
-The models are evaluated using accuracy, precision, recall, F1-score, and confusion matrices. Feature extraction using a pre-trained ResNet-18 model and dimensionality reduction using PCA are employed to improve performance for certain models.
+The models are evaluated using accuracy, Feature extraction using a pre-trained ResNet-18 model and dimensionality reduction using PCA are employed to improve performance for certain models.
+
+Dataset
+
+-The CIFAR-10 dataset contains 60,000 RGB images of size 32x32
+    Training Data: 500 images
+    Test Data: 100 images
+
+Results (Best)
+
+Model	        Accuracy	
+Naive Bayes	    79.10%	    
+Decision Tree	59.10%	    
+MLP	            82.00%	    
+CNN (VGG11)	    84.14%	    
+
+Acknowledgments
+
+Dataset: CIFAR-10
+Libraries: PyTorch, Scikit-learn, Matplotlib, Numpy
