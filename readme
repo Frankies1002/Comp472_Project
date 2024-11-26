@@ -18,11 +18,11 @@ Dataset
 
 Results (Best)
 
-Model	        Accuracy	
-Naive Bayes	    79.10%	    
-Decision Tree	59.10%	    
-MLP	            82.00%	    
-CNN (VGG11)	    84.14%	    
+Model	           Accuracy	
+Naive Bayes	     79.10%	    
+Decision Tree	  59.10%	    
+MLP	           82.00%	    
+CNN (VGG11)	     84.14%	    
 
 Acknowledgments
 
